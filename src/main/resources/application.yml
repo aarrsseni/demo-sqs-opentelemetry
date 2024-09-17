@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    credentials:
+      access-key: accessKey
+      secret-key: secretKey
+    sqs:
+      endpoint: http://docker:4566
+      region: us-east-1
